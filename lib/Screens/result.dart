@@ -1,10 +1,12 @@
 import 'dart:math';
 import 'package:bmi_calculator/Models/bmi_message.dart';
 import 'package:bmi_calculator/Models/person_data.dart';
-import 'package:bmi_calculator/Widgets/bmi_range_adults.dart';
-import 'package:bmi_calculator/Widgets/bmi_range_non_adults.dart';
+
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_svg/svg.dart';
+
+import '../Widgest/bmi_range.dart';
+import '../Widgest/bmi_range_non_adults.dart';
 
 late double bmi;
 late bool isAdult;

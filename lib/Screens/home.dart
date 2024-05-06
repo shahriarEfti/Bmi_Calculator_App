@@ -1,14 +1,17 @@
 import 'package:bmi_calculator/Models/home_screen_handler.dart';
 import 'package:bmi_calculator/Models/person_data.dart';
-import 'package:bmi_calculator/Widgets/app_banner.dart';
-import 'package:bmi_calculator/Widgets/custom_textfield.dart';
-import 'package:bmi_calculator/Widgets/gender_container.dart';
-import 'package:bmi_calculator/Widgets/header_text.dart';
-import 'package:bmi_calculator/Widgets/height_slider.dart';
-import 'package:bmi_calculator/Widgets/metric_widget.dart';
-import 'package:bmi_calculator/Widgets/weight_slider.dart';
+
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
+
+
+import '../Widgest/app_banner.dart';
+import '../Widgest/custom_textfield.dart';
+import '../Widgest/gender_container.dart';
+import '../Widgest/header_text.dart';
+import '../Widgest/height_slider.dart';
+import '../Widgest/metric_widget.dart';
+import '../Widgest/weight_slider.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
